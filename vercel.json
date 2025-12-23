@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "src": "/privacy-policy.html",
+      "dest": "/privacy-policy.html"
+    },
+    {
+      "src": "/terms-of-service.html",
+      "dest": "/terms-of-service.html"
+    },
+    {
+      "src": "/cookie-policy.html",
+      "dest": "/cookie-policy.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
