@@ -442,7 +442,7 @@ function App() {
                       onChange={handlePhotoToggle}
                     />
                     <div className="slide-track">
-                      <span className="slide-text">slide to compare</span>
+                      <span className="slide-text">click to compare</span>
                     </div>
                     <div className="slide-button" id="slide-button"></div>
                   </div>
