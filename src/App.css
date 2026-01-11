@@ -1871,7 +1871,7 @@ body {
     }
 }
 
-/* Floating CTA - Updated: Smaller size, right-aligned */
+/* Floating CTA - Updated: Right-aligned with slightly increased size */
 .floating-cta {
     position: fixed;
     bottom: clamp(1rem, 2vw, 1.5rem);
@@ -1879,7 +1879,7 @@ body {
     left: auto;
     background: var(--accent);
     color: var(--white);
-    padding: clamp(0.5rem, 1.5vw, 0.65rem) clamp(0.75rem, 2vw, 1rem);
+    padding: clamp(0.65rem, 1.8vw, 0.85rem) clamp(1rem, 2.5vw, 1.35rem);
     border: 2px solid var(--accent);
     text-decoration: none;
     font-weight: 700;
@@ -1887,7 +1887,7 @@ body {
     letter-spacing: 0.05em;
     z-index: 999;
     transition: all 0.2s ease;
-    font-size: clamp(0.65rem, 1.4vw, 0.75rem);
+    font-size: clamp(0.75rem, 1.6vw, 0.85rem);
     border-radius: 4px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     width: auto;
@@ -1908,8 +1908,8 @@ body {
         left: auto;
         right: 1rem;
         bottom: 1rem;
-        padding: 0.5rem 0.85rem;
-        font-size: 0.65rem;
+        padding: 0.6rem 1rem;
+        font-size: 0.72rem;
     }
 }
 
@@ -1917,8 +1917,8 @@ body {
     .floating-cta {
         bottom: 0.75rem;
         right: 0.75rem;
-        padding: 0.5rem 0.75rem;
-        font-size: 0.6rem;
+        padding: 0.55rem 0.9rem;
+        font-size: 0.68rem;
     }
 }
 
